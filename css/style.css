@@ -1,0 +1,39 @@
+body{
+    background-color: #D7C49E;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height:1095px;
+    padding-top: 140px;
+}
+div#center{
+    display: flex;
+    flex-direction: row;
+}
+div#leftImage{
+    display: flex;
+    flex-direction: column;
+}
+div#rightImage{
+    transform: translateX(-233px);
+    display: flex;
+    flex-direction: column;
+}
+
+img#profileImage{
+    transform: translate(440px,-370px);
+    width:190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 1px solid #D7C49E;
+}
+a:hover{
+    opacity: 0.8;
+}
+div#personName{
+    transform: translate(385px,-380px);
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

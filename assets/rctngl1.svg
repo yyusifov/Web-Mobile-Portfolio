@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="889" height="437" viewBox="0 0 889 437" fill="none">
+  <path d="M0 0H889C858.483 2.59237 852.527 15.1082 843.474 28.1458L655.869 437H0V0Z" fill="#DAA03D"/>
+  <text class="svgText" x="90" y="135" fill="black" font-family="Inknut Antiqua" font-size="40px" font-weight= "400">Hi There</text>
+  <text class="svgText" x="90" y="210" fill="black" font-family="Inknut Antiqua" font-size="30px" font-weight= "400">I am an Android Developer</text>    
+ 
+  <a class="prt" href="https://www.facebook.com" target="_blank" >
+
+  <rect x="90" y="270" width="235" height="70" fill="#fff" stroke="#000" stroke-width="3" rx="40" ry="40" box-shadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)"/>
+    <text x="206" y="308" fill="black" font-size="24" text-anchor="middle" dominant-baseline="middle">View My Portfolio</text>
+  </a>  
+
+</svg>
