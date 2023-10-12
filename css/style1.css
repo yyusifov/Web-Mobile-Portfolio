@@ -54,13 +54,96 @@ div#center{
 }
 div#infoCard{
     width:70%;
-    height:150px;
+    height:260px;
     border-radius: 40px;
     border: 1px solid #000;
     background: #F1F1F1;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+}
+div#leftPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 13px;
+    padding-top: 7px;
+}
+div#profileSection{
+    display: flex;
+    flex-direction: row;
+}
+img#profilePicture{
+    width: 150px;
+    height: 150px;
+    border-radius: 255px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+}
+div#profession{
+    display: flex;
+    flex-direction: column;
+}
+p#professionText{
+    color: #000;
+    text-align: justify;
+    font-family: Karantina;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+div#verticalLine{
+    border:1px solid black;
+    height: 180px;
+    opacity: 0.4;
+}
+div#iconList{
+    display:flex;
+    flex-direction: row;
+    column-gap: 13px;
+    justify-content: center;
+}
+a.socialMedia{
+    color: #000;
+}
+a.socialMedia:hover{
+    color:blue
+}
+div#rightPart{
+    display: flex;
+    flex-direction: column;
+
+}
+div#info{
+    width: 710px;
+    height: 140px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFB840;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+p#infoText{
+    color: #000;
+    text-align: justify;
+    font-family: Karantina;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    line-height: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
