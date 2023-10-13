@@ -40,11 +40,6 @@ p.sectionName{
 }
 a.sectionLinks{
     text-decoration: none;
-    color: #FFB840;
-}
-a.sectionLinks:visited{
-    text-decoration: underline;
-    color: #FFB840;  
 }
 div#center{
     width: 100%;
@@ -53,11 +48,12 @@ div#center{
     justify-content: center;
 }
 div#infoCard{
+    background-image: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png");
     width:70%;
     height:260px;
     border-radius: 40px;
     border: 1px solid #000;
-    background: #F1F1F1;
+    background-color: #F1F1F1;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding-left: 60px;
     padding-right: 60px;
@@ -114,19 +110,21 @@ a.socialMedia{
     color: #000;
 }
 a.socialMedia:hover{
-    color:blue
+    color:red;
 }
 div#rightPart{
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    row-gap: 20px;
 }
 div#info{
+    background-image: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png");
     width: 710px;
     height: 140px;
     border-radius: 20px;
     border: 1px solid #000;
-    background: #FFB840;
+    background-color: #FFB840;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: row;
@@ -146,4 +144,35 @@ p#infoText{
     line-height: normal;
     margin-block-start: 0;
     margin-block-end: 0;
+}
+div#contact{
+    background-image: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #5D7A81;
+}
+p#emailAdress{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    font-family: Karantina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+a#email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color: #FFF;
+}
+a#email:hover{
+    color:red
 }
